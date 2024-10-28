@@ -359,7 +359,12 @@ body {
     display: flex;
     justify-content: center;
 }
-.viewOnGitHub:hover {
+.viewProjectCompo {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.viewProjectBtnStyle:hover {
     color: rgba(255, 215, 0, 1);
     transform: scale(1.2);
     text-shadow: 0 0 8px rgba(255, 215, 0, 1),
