@@ -372,9 +372,15 @@ body {
     0 0 24px rgba(255, 215, 0, 0.6);
 }
 
+.researchImageContainer {
+    background-color: transparent;
+    width: 43%;
+    display: flex;
+    justify-content: center;
+}
 .researchImage {
-    width: 354px;
-    height: 339px;
+    /* width: 354px; */
+    height: 309px;
     box-shadow: 0 0 15px 5px #ffffff;
 }
 
