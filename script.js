@@ -56,3 +56,13 @@ function swapText() {
 }
 
 setInterval(swapText, 4000);
+
+function openEmail() {
+    if (/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+        window.location.href = "mailto:edricklouiss@gmail.com";
+    } 
+    else 
+    {
+        window.open("https://mail.google.com/mail/?view=cm&fs=1&to=edricklouiss@gmail.com");
+    }
+}
