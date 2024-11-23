@@ -4,8 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Roboto', Arial, sans-serif; */
-    /* font-family: montserrat, sans-serif; */
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -14,15 +12,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.allPage {
-    width: 67%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: transparent;
-    padding-bottom: 150px;
 }
 
 /* Header */
@@ -173,10 +162,22 @@ body {
     scroll-margin-top: 210px;
 }
 
+/* All Page */
+.allPage {
+    width: 67%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    padding-bottom: 150px;
+}
+
 /* Page One */
 .pageOne {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 86%;
     margin-top: 200px;
     background-color: transparent;
 }
@@ -216,13 +217,12 @@ body {
 .aboutMeAndEdu {
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
     width: 460px;
 }
 .profileName {
     font-size: 64px;
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
     letter-spacing: 3px;
     line-height: normal;
     margin: 10px 0px;
@@ -280,20 +280,6 @@ body {
     0 0 100px rgba(30, 144, 255, 1),
     0 0 200px rgba(30, 144, 255, 1);
 }
-/* .projectPageLink a::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 0;
-    height: 2px; 
-    background-color: white;
-    transition: .3s;
-}
-.workedOn:hover::before {
-    width: 100%;
-    background-color: #1E90FF;
-} */
 
 /* Page Two */
 .pageTwo {
@@ -320,6 +306,7 @@ body {
 
 .projectBox {
     margin-top: 100px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     background-color: transparent;
@@ -328,8 +315,6 @@ body {
 .projectLeft {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 40%;
 }
 .projectTitle {
@@ -358,13 +343,14 @@ body {
     transition: color 0.3s ease, transform 0.3s ease;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 .viewProjectCompo {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
 }
-.viewProjectBtnStyle:hover {
+.viewBtnStyle:hover {
     color: rgba(255, 215, 0, 1);
     transform: scale(1.2);
     text-shadow: 0 0 8px rgba(255, 215, 0, 1),
@@ -379,7 +365,6 @@ body {
     justify-content: center;
 }
 .researchImage {
-    /* width: 354px; */
     height: 309px;
     box-shadow: 0 0 15px 5px #ffffff;
 }
@@ -389,10 +374,11 @@ body {
     width: 40%;
     position: relative;
     overflow: visible;
+    display: flex;
+    align-items: center;
 }
 .certif {
     width: 100%;
-    height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease, z-index 0s;
     position: relative;
@@ -431,13 +417,9 @@ body {
     letter-spacing: 1px;
     margin-top: 30px;
     transition: color 0.3s ease, transform 0.3s ease;
-}
-.certifAuthen:hover {
-    color: rgba(255, 215, 0, 1);
-    transform: scale(1.2);
-    text-shadow: 0 0 8px rgba(255, 215, 0, 1),
-    0 0 16px rgba(255, 215, 0, 0.8),
-    0 0 24px rgba(255, 215, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 /* Footer */
@@ -446,10 +428,10 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 40px 80px;
     background-color: black;
     display: flex;
     justify-content: center;
+    align-items: center;
     transition: transform 0.3s ease;
 }
 
@@ -464,8 +446,12 @@ body {
 
 .navFooter {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .navFooter a {
     position: relative;
@@ -474,6 +460,7 @@ body {
     font-weight: 500;
     text-decoration: none;
     letter-spacing: 2px;
+    text-align: center;
     transition: color 0.3s ease;
 }
 .navFooter a::after {

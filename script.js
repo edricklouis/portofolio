@@ -57,12 +57,18 @@ function swapText() {
 
 setInterval(swapText, 4000);
 
-function openEmail() {
-    if (/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
-        window.location.href = "mailto:edricklouiss@gmail.com";
+document.getElementById("openEmail").addEventListener("click", function (event) {
+    event.preventDefault();
+
+    const email = "edricklouiss@gmail.com";
+    const mailToLink = `mailto:${email}`;
+
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+    if (isMobile) {
+        window.location.href = mailToLink;
     } 
-    else 
-    {
-        window.open("https://mail.google.com/mail/?view=cm&fs=1&to=edricklouiss@gmail.com");
+    else {
+        window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=${email}`);
     }
-}
+});

@@ -1,0 +1,134 @@
+@media screen and (max-width: 424px) {
+    /* Header */
+    .header{
+        display: flex;
+        justify-content: center;
+    }
+    .headerLeft {
+        display: none;
+    }
+    .headerRight {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .headerRight a {
+        margin-left: 9%;
+        margin-right: 9%;
+        font-size: 3vw;
+    }
+
+    #projectsID {
+        scroll-margin-top: 23vw;
+    }
+    #certificatesID {
+        scroll-margin-top: 23vw;
+    }
+
+    /* All Page */
+    .allPage {
+        width: 85%;
+    }
+
+    /* Page One */
+    .pageOne {
+        display: flex;
+        flex-direction: column;
+        margin-top: 28%;
+    }
+    .profilePicture {
+        width: 100%;
+        height: auto;
+    }
+    .aboutMeAndEdu {
+        width: 100%;
+    }
+    .profileName {
+        font-size: 10vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+    .aBitAboutMe {
+        font-size: 5vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+    .aboutMeText {
+        font-size: 3.3vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+    .projectPageLink {
+        font-size: 3.7vw;
+        margin-top: 3vw;
+    }
+    .projectPageLink a {
+        font-size: 3.7vw;
+    }
+
+    /* Page Two */
+    .pageTitle {
+        font-size: 9vw;
+    }
+    .projectBox {
+        display: flex;
+        flex-direction: column;
+        margin-top: 18vw;
+    }
+    .projectLeft {
+        width: 100%;
+        margin-top: 4vw;
+    }
+    .projectTitle {
+        font-size: 6vw;
+        margin-bottom: 4vw;
+    }
+    .projectDesc {
+        font-size: 3.3vw;
+    }
+    .projectLeft a {
+        font-size: 3.7vw;
+        margin-top: 6vw;
+    }
+    .researchImageContainer {
+        order: -1;
+        width: 100%;
+    }
+    .researchImage {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Page Three */
+    .certifBox {
+        width: 100%;
+    }
+    .certif:hover {
+        transform: scale(1.15);
+    }
+    .certifRight {
+        width: 100%;
+        margin-top: 4vw;
+    }
+    .certifTitle {
+        font-size: 6vw;
+        margin-bottom: 4vw;
+    }
+    .certifRight a {
+        font-size: 3.7vw;
+        margin-top: 6vw;
+    }
+
+    /* Footer */
+    .footerLine {
+        width: 85%;
+    }
+    .navFooter {
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        gap: 3vw;
+    }
+    .navFooter a {
+        font-size: 3.3vw;
+    }
+}
