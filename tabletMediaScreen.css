@@ -1,0 +1,116 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Header */
+    .headerLeft {
+        font-size: 2.3vw;
+    }
+    .headerRight a {
+        font-size: 1.8vw;
+    }
+
+    #projectsID {
+        scroll-margin-top: 15vw;
+    }
+    #certificatesID {
+        scroll-margin-top: 15vw;
+    }
+
+    /* All Page */
+    .allPage {
+        width: 85%;
+    }
+
+    /* Page One */
+    .pageOne {
+        width: 97%;
+        margin-top: 25vw;
+    }
+    .profilePicture {
+        width: 35vw;
+        height: auto;
+    }
+    .aboutMeAndEdu {
+        width: 45vw;
+    }
+    .profileName {
+        font-size: 5vw;
+        margin-bottom: 0.8vw;
+    }
+    .aBitAboutMe {
+        font-size: 2.5vw;
+        margin-top: 0.8vw;
+        margin-bottom: 0.8vw;
+    }
+    .aboutMeText {
+        font-size: 1.4vw;
+        margin-top: 0.8vw;
+        margin-bottom: 0.8vw;
+    }
+    .projectPageLink {
+        font-size: 1.6vw;
+        margin-top: 0.8vw;
+    }
+    .projectPageLink a {
+        font-size: 1.6vw;
+    }
+
+    /* Page Two */
+    .pageTwo {
+        margin-top: 23vw;
+    }
+    .pageTitle {
+        font-size: 5vw;
+    }
+    .projectBox {
+        margin-top: 12vw;
+    }
+    .projectLeft {
+        width: 45%;
+    }
+    .projectTitle {
+        font-size: 3vw;
+        margin-bottom: 2vw;
+    }
+    .projectDesc {
+        font-size: 1.5vw;
+    }
+    .projectLeft a {
+        font-size: 1.7vw;
+        margin-top: 3vw;
+    }
+    .researchImage {
+        max-height: 26vw;
+    }
+
+    /* Page Three */
+    .certifBox {
+        width: 45%;
+    }
+    .certif {
+        max-height: 27vw;
+    }
+    .certif:hover {
+        transform: scale(1.35);
+    }
+    .certifTitle {
+        font-size: 3vw;
+        margin-bottom: 2vw;
+    }
+    .certifRight a {
+        font-size: 1.7vw;
+        margin-top: 3vw;
+    }
+
+    /* Footer */
+    .footerLine {
+        width: 85%;
+    }
+    .navFooter {
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+        width: 85%;
+        justify-content: space-between;
+    }
+    .navFooter a {
+        font-size: 2vw;
+    }
+}

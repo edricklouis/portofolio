@@ -42,10 +42,10 @@
     }
     .aboutMeAndEdu {
         width: 100%;
+        margin-top: 1vw;
     }
     .profileName {
         font-size: 10vw;
-        margin-top: 3vw;
         margin-bottom: 3vw;
     }
     .aBitAboutMe {
@@ -95,8 +95,7 @@
         width: 100%;
     }
     .researchImage {
-        width: 100%;
-        height: auto;
+        max-height: 55vw;
     }
 
     /* Page Three */
