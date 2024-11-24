@@ -83,6 +83,16 @@
         font-size: 6vw;
         margin-bottom: 4vw;
     }
+    .toolsContainer {
+        margin-bottom: 4vw;
+        gap: 1.5vw;
+    }
+    .projectTools {
+        font-size: 4.7vw;
+    }
+    .listOfTools {
+        font-size: 3.7vw;
+    }
     .projectDesc {
         font-size: 3.3vw;
     }

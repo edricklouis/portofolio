@@ -70,6 +70,16 @@
         font-size: 3vw;
         margin-bottom: 2vw;
     }
+    .toolsContainer {
+        margin-bottom: 2vw;
+        gap: 0.7vw;
+    }
+    .projectTools {
+        font-size: 2.3vw;
+    }
+    .listOfTools {
+        font-size: 1.8vw;
+    }
     .projectDesc {
         font-size: 1.5vw;
     }
