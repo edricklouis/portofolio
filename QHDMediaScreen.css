@@ -1,0 +1,110 @@
+@media screen and (min-width: 1440px) and (max-width: 2560px) {
+    /* Header */
+    .header {
+        padding: 1.2vw 4.7vw;
+    }
+    .headerLeft {
+        font-size: 1.3vw;
+    }
+    .headerRight a {
+        font-size: 1vw;
+        margin-left: 3vw;
+    }
+
+    #projectsID {
+        scroll-margin-top: 12.3vw;
+    }
+    #certificatesID {
+        scroll-margin-top: 12.3vw;
+    }
+
+    /* Page One */
+    .pageOne {
+        margin-top: 11.7vw;
+    }
+    .profilePicture {
+        width: 28.3vw;
+        height: auto;
+    }
+    .aboutMeAndEdu {
+        width: 27.1vw;
+    }
+    .profileName {
+        font-size: 3.75vw;
+        margin-bottom: 0.6vw;
+    }
+    .aBitAboutMe {
+        font-size: 1.4vw;
+        margin-top: 0.6vw;
+        margin-bottom: 0.6vw;
+    }
+    .aboutMeText {
+        font-size: 0.83vw;
+        margin-top: 0.6vw;
+        margin-bottom: 0.6vw;
+    }
+    .projectPageLink {
+        font-size: 1vw;
+        margin-top: 0.6vw;
+    }
+    .projectPageLink a {
+        font-size: 1vw;
+    }
+
+    /* Page Two */
+    .pageTwo {
+        margin-top: 12vw;
+    }
+    .pageTitle {
+        font-size: 2.5vw;
+    }
+    .projectBox {
+        margin-top: 5.9vw;
+    }
+    .projectTitle {
+        font-size: 1.5vw;
+        margin-bottom: 1.2vw;
+    }
+    .toolsContainer {
+        margin-bottom: 1.2vw;
+        gap: 0.4vw;
+    }
+    .projectTools {
+        font-size: 1.15vw;
+    }
+    .listOfTools {
+        font-size: 0.9vw;
+    }
+    .projectDesc {
+        font-size: 0.82vw;
+    }
+    .projectLeft a {
+        font-size: 0.94vw;
+        margin-top: 1.8vw;
+    }
+    .researchImage {
+        max-height: 18vw;
+    }
+
+    /* Page Three */
+    .certif {
+        max-height: 18.8vw;
+    }
+    .certifTitle {
+        font-size: 1.5vw;
+        margin-bottom: 1.2vw;
+    }
+    .certifRight a {
+        font-size: 0.95vw;
+        margin-top: 1.6vw;
+    }
+
+    /* Footer */
+    .navFooter {
+        margin-top: 2.35vw;
+        margin-bottom: 2.35vw;
+    }
+    .navFooter a {
+        font-size: 1.1vw;
+    }
+}

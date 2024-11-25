@@ -1,8 +1,9 @@
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 499px) {
     /* Header */
     .header{
         display: flex;
         justify-content: center;
+        padding: 4vw 8vw;
     }
     .headerLeft {
         display: none;
@@ -10,12 +11,11 @@
     .headerRight {
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
     .headerRight a {
-        margin-left: 9%;
-        margin-right: 9%;
         font-size: 3vw;
+        margin-left: 0px;
     }
 
     #projectsID {
