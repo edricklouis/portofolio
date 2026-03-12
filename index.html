@@ -1,222 +1,309 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portofolio</title>
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="phoneMediaScreen.css">
-    <link rel="stylesheet" href="largePhoneMediaScreen.css">
-    <link rel="stylesheet" href="tabletMediaScreen.css">
-    <link rel="stylesheet" href="laptopMediaScreen.css">
-    <link rel="stylesheet" href="QHDMediaScreen.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header class="header">
-        <a href="#" class="back-to-top headerLeft">Edrick Louis</a>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="phoneMediaScreen.css" />
+		<link rel="stylesheet" href="largePhoneMediaScreen.css" />
+		<link rel="stylesheet" href="tabletMediaScreen.css" />
+		<link rel="stylesheet" href="laptopMediaScreen.css" />
+		<link rel="stylesheet" href="QHDMediaScreen.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<header class="header">
+			<a href="#" class="back-to-top headerLeft">Edrick Louis</a>
 
-        <nav class="headerRight">
-            <a href="https://drive.google.com/file/d/1JmBFykpISP08cE4PJSOjXrPKwHtSopXV/view?usp=sharing" target="_blank" class="navResume">CV</a>
-            <a href="#projectsID" class="scroll-link navProjects">Projects</a>
-            <a href="#certificatesID" class="scroll-link navCertificates">Certificates</a>
-            <a href="#" class="back-to-top navContact">Contact</a>
-        </nav>
-    </header>
+			<nav class="headerRight">
+				<a href="https://drive.google.com/file/d/1JmBFykpISP08cE4PJSOjXrPKwHtSopXV/view?usp=sharing" target="_blank" class="navResume">CV</a>
+				<a href="#projectsID" class="scroll-link navProjects">Projects</a>
+				<a href="#certificatesID" class="scroll-link navCertificates">Certificates</a>
+				<a href="#" class="back-to-top navContact">Contact</a>
+			</nav>
+		</header>
 
-    <div class="allPage">
-        <div class="pageOne">
-            <div>
-                <img src="image/Profile Picture Icon Image.jpg" class="profilePicture">
-            </div>
-    
-            <div class="aboutMeAndEdu">
-                <span class="profileName">Edrick Louis</span>
-                <span class="aBitAboutMe">A Bit About Me</span>
-                <span class="aboutMeText">Hi, I'm a 5th-semester Computer Science student at Binus University with a specialization in Database Technology. I have an interest in Data Science and technology, and I've had the opportunity to explore these fields through some projects and research.</span>
-                <span class="projectPageLink">
-                    Come and see what projects I have
-                    <a href="#projectsID" class="scroll-link workedOn">worked on &#x2192;</a>
-                </span>
-            </div>
-        </div>
+		<div class="allPage">
+			<div class="pageOne">
+				<div>
+					<img src="image/ProfilePicture.jpg" class="profilePicture" />
+				</div>
 
-        <!-- Projects -->
-        <div class="pageTwo">
-            <span id="projectsID" class="changing-text pageTitle">Projects</span>
+				<div class="aboutMeAndEdu">
+					<span class="profileName">Edrick Louis</span>
+					<span class="aBitAboutMe">A Bit About Me</span>
+					<span class="aboutMeText"
+						>Hi, I'm a final-year Computer Science student at BINUS University with a strong interest in Data Science and financial markets. I enjoy exploring
+						data analytics and machine learning through projects and research to extract insights and solve real-world problems.</span
+					>
+					<span class="projectPageLink">
+						Come and see what projects I have
+						<a href="#projectsID" class="scroll-link workedOn">worked on &#x2192;</a>
+					</span>
+				</div>
+			</div>
 
-            <!-- Air Quality Analysis Based on City Population -->
-            <div class="projectBox">
-                <div class="projectLeft">
-                    <span class="projectTitle">Air Quality Analysis Based on City Population</span>
-                    <div class="toolsContainer">
-                        <span class="projectTools">Tech Stack :</span>
-                        <span class="listOfTools">Tableau, Python, and Pandas</span>
-                    </div>
-                    <span class="projectDesc">
-                        This research project aims to explore the relationship between air quality and city population size by analyzing 
-                        air pollution data from cities worldwide. Air quality is measured using the Air Quality Index (AQI), which 
-                        indicates the level of pollution in the air and its potential health effects. The study categorizes cities into 
-                        five groups based on population size: small, medium, large, very large, and giant cities, providing insights into 
-                        how population density may influence air pollution levels.
-                    </span>
+			<!-- Projects -->
+			<div class="pageTwo">
+				<span id="projectsID" class="changing-text pageTitle">Projects</span>
 
-                    <div class="viewProjectCompo">
-                        <a href="https://github.com/edricklouis/AQI-Analysis-Based-on-City-Population.git" target="_blank" class="viewBtnStyle">View on GitHub</a>
-                        <a href="https://public.tableau.com/views/AirQualityAnalysisBasedonCityPopulation/Dashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank" class="viewBtnStyle">View on Tableau</a>
-                    </div>
-                </div>
+				<!-- Systematic Stock Selection Engine: High-Efficiency Filtering with XGBoost -->
+				<div class="projectBox">
+					<div class="projectLeft">
+						<span class="projectTitle">Systematic Stock Selection Engine: High-Efficiency Filtering with XGBoost</span>
+						<div class="toolsContainer">
+							<span class="projectTools">Tech Stack :</span>
+							<span class="listOfTools">yfinance, Pandas, NumPy, scikit-learn, XGBoost, Matplotlib, and Seaborn</span>
+						</div>
+						<span class="projectDesc"
+							>A sophisticated machine learning solution designed to identify market outliers with precision. Utilizing XGBoost model and specialized feature
+							engineering, this model acts as an intelligent filter, efficiently sifting through large datasets to highlight high-potential stocks. It bridges
+							the gap between massive raw data and strategic decision-making by prioritizing assets with the strongest predictive signals.
+						</span>
 
-                <div class="researchImageContainer">
-                    <img src="image/AQIbyPopulation.webp" class="researchImage">
-                </div>
-            </div>
+						<div class="viewProjectCompo">
+							<a href="https://github.com/edricklouis/quant_model_prediction_research_portofolio.git" target="_blank" class="viewBtnStyle">View on GitHub</a>
+						</div>
+					</div>
 
-            <!-- A Comparative Analysis of BERT and RoBERTa Model for Sentiment Analysis on Twitter Text -->
-            <div class="projectBox">
-                <div class="projectLeft">
-                    <span class="projectTitle">A Comparative Analysis of BERT and RoBERTa Model for Sentiment Analysis on Twitter Text</span>
-                    <div class="toolsContainer">
-                        <span class="projectTools">Tech Stack :</span>
-                        <span class="listOfTools">Python, scikit-learn, TensorFlow, Transformers, NumPy, Pandas, Matplotlib, and Seaborn</span>
-                    </div>
-                    <span class="projectDesc">
-                        NLP transformers are widely used in sentiment analysis tasks. In this research, we analyze 
-                        BERT and RoBERTa models in performing sentiment analysis. The purpose of this research is to know the pros and 
-                        cons of the both models and the best method possible to achieve the best results. This paper focuses more on 
-                        analyzing the effect of hyperparameter tuning (learning rate, epoch, and batch size) of both models in regards to 
-                        their accuracy and validation accuracy.
-                    </span>
+					<div class="researchImageContainer">
+						<img src="image/StockModelPrediction.png" class="researchImage" />
+					</div>
+				</div>
 
-                    <div class="viewProjectCompo">
-                        <a href="https://github.com/edricklouis/Comparison-BERT-and-RoBERTa-in-Twitter-Text-Sentiment-Analysis.git" target="_blank" class="viewBtnStyle">View on GitHub</a>
-                        <a href="https://drive.google.com/file/d/1zxdIU679_DOLXK4j8PKsFeEo_XWx1ylE/view?usp=sharing" target="_blank" class="viewBtnStyle">View paper</a>
-                    </div>
-                </div>
+				<!-- Emotion Detection in Indonesian Music Comments Using BERT, Traditional Machine Learning and Their Hybrid Model -->
+				<div class="projectBox">
+					<div class="projectLeft">
+						<span class="projectTitle">Emotion Detection in Indonesian Music Comments Using BERT, Traditional Machine Learning and Their Hybrid Model</span>
+						<div class="toolsContainer">
+							<span class="projectTools">Tech Stack :</span>
+							<span class="listOfTools">Python, Pandas, scikit-learn, Transformers, NumPy, Matplotlib, XGBoost, and LightGBM</span>
+						</div>
+						<span class="projectDesc">
+							This project is part of my undergraduate thesis research that explores emotion detection in Indonesian music-related social media comments. It
+							analyzes 1,000 comments from YouTube and TikTok and classifies them into five emotions using three approaches: traditional machine learning, BERT,
+							and a hybrid model that combines both methods.
+						</span>
 
-                <div class="researchImageContainer">
-                    <img src="image/BERTvsRoBERTa.webp" class="researchImage">
-                </div>
-            </div>
+						<div class="viewProjectCompo">
+							<a href="https://github.com/edricklouis/Emotion-Detection-Research-Thesis.git" target="_blank" class="viewBtnStyle">View on GitHub</a>
+							<a href="https://drive.google.com/file/d/1T6lxUcR8D6Lxz3RSAUNzCs4ZSbwKp6bo/view?usp=sharing" target="_blank" class="viewBtnStyle">View paper</a>
+						</div>
+					</div>
 
-            <!-- Evaluating the Impact of Latitude and Longitude on Air Quality Prediction: A Comparison Between Random Forest and Gradient Boosting Regressors -->
-            <div class="projectBox">
-                <div class="projectLeft">
-                    <span class="projectTitle">Evaluating the Impact of Latitude and Longitude on Air Quality Prediction: A Comparison Between Random Forest and Gradient Boosting Regressors</span>
-                    <div class="toolsContainer">
-                        <span class="projectTools">Tech Stack :</span>
-                        <span class="listOfTools">Python, scikit-learn, NumPy, Pandas, Matplotlib, and Seaborn</span>
-                    </div>
-                    <span class="projectDesc">
-                        This research compares the effectiveness of Random Forest Regressor and Gradient Boosting Regressor models in 
-                        predicting Air Quality Index (AQI), focusing on the role of geographical factors like latitude and longitude as 
-                        predictive features. The study aims to determine the most accurate model for AQI prediction by evaluating performance 
-                        metrics such as Mean Squared Error (MSE) and R² score. Results highlight the predictive value of adding geographical 
-                        features, offering insights for improving AQI forecasting accuracy and model selection in environmental data analysis.
-                    </span>
+					<div class="researchImageContainer">
+						<img src="image/PreviewArtikelIlmiah.png" class="researchImage" />
+					</div>
+				</div>
 
-                    <div class="viewProjectCompo">
-                        <a href="https://github.com/edricklouis/Comparison-RandomForest-and-GradientBoosting-Regressors-to-predict-Air_Quality_Index.git" target="_blank" class="viewBtnStyle">View on GitHub</a>
-                    </div>
-                </div>
+				<!-- Air Quality Analysis Based on City Population -->
+				<div class="projectBox">
+					<div class="projectLeft">
+						<span class="projectTitle">Air Quality Analysis Based on City Population</span>
+						<div class="toolsContainer">
+							<span class="projectTools">Tech Stack :</span>
+							<span class="listOfTools">Tableau, Python, and Pandas</span>
+						</div>
+						<span class="projectDesc">
+							This research project aims to explore the relationship between air quality and city population size by analyzing air pollution data from cities
+							worldwide. Air quality is measured using the Air Quality Index (AQI), which indicates the level of pollution in the air and its potential health
+							effects. The study categorizes cities into five groups based on population size: small, medium, large, very large, and giant cities, providing
+							insights into how population density may influence air pollution levels.
+						</span>
 
-                <div class="researchImageContainer">
-                    <img src="image/LatitudeToAQIValue.png" class="researchImage">
-                </div>
-            </div>
+						<div class="viewProjectCompo">
+							<a href="https://github.com/edricklouis/AQI-Analysis-Based-on-City-Population.git" target="_blank" class="viewBtnStyle">View on GitHub</a>
+							<a
+								href="https://public.tableau.com/views/AirQualityAnalysisBasedonCityPopulation/Dashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+								target="_blank"
+								class="viewBtnStyle"
+								>View on Tableau</a
+							>
+						</div>
+					</div>
 
-            <!-- ERamen Website -->
-            <div class="projectBox">
-                <div class="projectLeft">
-                    <span class="projectTitle">ERamen Front-End Website</span>
-                    <div class="toolsContainer">
-                        <span class="projectTools">Tech Stack :</span>
-                        <span class="listOfTools">HTML, CSS, JavaScript, and GitHub Pages</span>
-                    </div>
-                    <span class="projectDesc">
-                        ERamen is a front-end-based marketplace website designed to sell various types of ramen online. Built using HTML and CSS, 
-                        the website has three main features: a Home page to promote featured ramen, a Menu page where users can view and select their 
-                        favorite ramen, and a Contact Us page that allows users to provide feedback or suggestions. The project focused on an 
-                        attractive and functional design to provide an intuitive user experience, while also training my skills in front-end-based 
-                        website development.
-                    </span>
+					<div class="researchImageContainer">
+						<img src="image/AQIbyPopulation.webp" class="researchImage" />
+					</div>
+				</div>
 
-                    <div class="viewProjectCompo">
-                        <a href="https://github.com/edricklouis/ERamen-website.git" target="_blank" class="viewBtnStyle">View on GitHub</a>
-                        <a href="https://edricklouis.github.io/ERamen-website/" target="_blank" class="viewBtnStyle">View website</a>
-                    </div>
-                </div>
+				<!-- A Comparative Analysis of BERT and RoBERTa Model for Sentiment Analysis on Twitter Text -->
+				<div class="projectBox">
+					<div class="projectLeft">
+						<span class="projectTitle">A Comparative Analysis of BERT and RoBERTa Model for Sentiment Analysis on Twitter Text</span>
+						<div class="toolsContainer">
+							<span class="projectTools">Tech Stack :</span>
+							<span class="listOfTools">Python, scikit-learn, TensorFlow, Transformers, NumPy, Pandas, Matplotlib, and Seaborn</span>
+						</div>
+						<span class="projectDesc">
+							NLP transformers are widely used in sentiment analysis tasks. In this research, we analyze BERT and RoBERTa models in performing sentiment
+							analysis. The purpose of this research is to know the pros and cons of the both models and the best method possible to achieve the best results.
+							This paper focuses more on analyzing the effect of hyperparameter tuning (learning rate, epoch, and batch size) of both models in regards to their
+							accuracy and validation accuracy.
+						</span>
 
-                <div class="researchImageContainer">
-                    <img src="image/ERamenWebsite.png" class="researchImage">
-                </div>
-            </div>
-        </div>
+						<div class="viewProjectCompo">
+							<a href="https://github.com/edricklouis/Comparison-BERT-and-RoBERTa-in-Twitter-Text-Sentiment-Analysis.git" target="_blank" class="viewBtnStyle"
+								>View on GitHub</a
+							>
+							<a href="https://drive.google.com/file/d/1zxdIU679_DOLXK4j8PKsFeEo_XWx1ylE/view?usp=sharing" target="_blank" class="viewBtnStyle">View paper</a>
+						</div>
+					</div>
 
-        <!-- Certificates -->
-        <div class="pageTwo">
-            <span id="certificatesID" class="pageTitle">Certificates</span>
+					<div class="researchImageContainer">
+						<img src="image/BERTvsRoBERTa.webp" class="researchImage" />
+					</div>
+				</div>
 
-            <!-- Data Analysis with Python -->
-            <div class="projectBox">
-                <div class="certifBox">
-                    <img src="image/Data Analysis with Python.png" class="certif">
-                </div>
+				<!-- Evaluating the Impact of Latitude and Longitude on Air Quality Prediction: A Comparison Between Random Forest and Gradient Boosting Regressors -->
+				<div class="projectBox">
+					<div class="projectLeft">
+						<span class="projectTitle"
+							>Evaluating the Impact of Latitude and Longitude on Air Quality Prediction: A Comparison Between Random Forest and Gradient Boosting
+							Regressors</span
+						>
+						<div class="toolsContainer">
+							<span class="projectTools">Tech Stack :</span>
+							<span class="listOfTools">Python, scikit-learn, NumPy, Pandas, Matplotlib, and Seaborn</span>
+						</div>
+						<span class="projectDesc">
+							This research compares the effectiveness of Random Forest Regressor and Gradient Boosting Regressor models in predicting Air Quality Index (AQI),
+							focusing on the role of geographical factors like latitude and longitude as predictive features. The study aims to determine the most accurate
+							model for AQI prediction by evaluating performance metrics such as Mean Squared Error (MSE) and R² score. Results highlight the predictive value
+							of adding geographical features, offering insights for improving AQI forecasting accuracy and model selection in environmental data analysis.
+						</span>
 
-                <div class="certifRight">
-                    <span class="certifTitle">Data Analysis with Python</span>
-                    <span class="projectDesc">Succesfully completed and received a passing grade in Data Analysis with Python. A course on cognitiveclass.ai, powered by IBM Developer Skills Network.</span>
-                    <a href="https://courses.cognitiveclass.ai/certificates/1b896c419e0d4f80a3b2e87f53c9c065" target="_blank" class="viewBtnStyle">View Authenticity</a>
-                </div>
-            </div>
-            <!-- SQL and Relational Databases 101 -->
-            <div class="projectBox">
-                <div class="certifBox">
-                    <img src="image/SQL and Relational Databases 101.png" class="certif">
-                </div>
+						<div class="viewProjectCompo">
+							<a
+								href="https://github.com/edricklouis/Comparison-RandomForest-and-GradientBoosting-Regressors-to-predict-Air_Quality_Index.git"
+								target="_blank"
+								class="viewBtnStyle"
+								>View on GitHub</a
+							>
+						</div>
+					</div>
 
-                <div class="certifRight">
-                    <span class="certifTitle">SQL and Relational Databases 101</span>
-                    <span class="projectDesc">Succesfully completed and received a passing grade in SQL and Relational Databases 101. A course on cognitiveclass.ai, powered by IBM Developer Skills Network.</span>
-                    <a href="https://courses.cognitiveclass.ai/certificates/d2e7e12de12e454887168d144a4412f0" target="_blank" class="viewBtnStyle">View Authenticity</a>
-                </div>
-            </div>
-            <!-- Professional Office -->
-            <div class="projectBox">
-                <div class="certifBox">
-                    <img src="image/Professional Office.png" class="certif">
-                </div>
+					<div class="researchImageContainer">
+						<img src="image/LatitudeToAQIValue.png" class="researchImage" />
+					</div>
+				</div>
 
-                <div class="certifRight">
-                    <span class="certifTitle">Professional Office</span>
-                    <span class="projectDesc">Succesfully completed English C1.2-Level courses and received passing grade for Professional Office. A digital language learning system provided by Binus University.</span>
-                </div>
-            </div>
-            <!-- Advanced English -->
-            <div class="projectBox">
-                <div class="certifBox">
-                    <img src="image/Advanced English.png" class="certif">
-                </div>
+				<!-- ERamen Website -->
+				<div class="projectBox">
+					<div class="projectLeft">
+						<span class="projectTitle">ERamen Front-End Website</span>
+						<div class="toolsContainer">
+							<span class="projectTools">Tech Stack :</span>
+							<span class="listOfTools">HTML, CSS, JavaScript, and GitHub Pages</span>
+						</div>
+						<span class="projectDesc">
+							ERamen is a front-end-based marketplace website designed to sell various types of ramen online. Built using HTML and CSS, the website has three
+							main features: a Home page to promote featured ramen, a Menu page where users can view and select their favorite ramen, and a Contact Us page that
+							allows users to provide feedback or suggestions. The project focused on an attractive and functional design to provide an intuitive user
+							experience, while also training my skills in front-end-based website development.
+						</span>
 
-                <div class="certifRight">
-                    <span class="certifTitle">Advanced English</span>
-                    <span class="projectDesc">Succesfully completed English C2.1-Level courses and received passing grade for Advanced English. A digital language learning system provided by Binus University.</span>
-                </div>
-            </div>
-        </div>
-    </div>
+						<div class="viewProjectCompo">
+							<a href="https://github.com/edricklouis/ERamen-website.git" target="_blank" class="viewBtnStyle">View on GitHub</a>
+							<a href="https://edricklouis.github.io/ERamen-website/" target="_blank" class="viewBtnStyle">View website</a>
+						</div>
+					</div>
 
-    <footer class="footer">
-        <div class="footerLine"></div>
-        <nav class="navFooter">
-            <a href="https://www.instagram.com/edricklouiss/" target="_blank" class="instagram">Instagram</a>
-            <a href="https://www.linkedin.com/in/edrick-louis-88aa64253/" target="_blank" class="linkedin">LinkedIn</a>
-            <a href="https://github.com/edricklouis" target="_blank" class="github">GitHub</a>
-            <a href="#" id="openEmail" target="_blank" class="email">edricklouiss@gmail.com</a>
-        </nav>
-    </footer>
+					<div class="researchImageContainer">
+						<img src="image/ERamenWebsite.png" class="researchImage" />
+					</div>
+				</div>
+			</div>
 
-    <script src="script.js"></script>
-</body>
+			<!-- Certificates -->
+			<div class="pageTwo">
+				<span id="certificatesID" class="pageTitle">Certificates</span>
+
+				<!-- Pernyataan Dewan Penguji -->
+				<div class="projectBox">
+					<div class="certifBox">
+						<img src="image/SuratPDP.png" class="certif" />
+					</div>
+
+					<div class="certifRight">
+						<span class="certifTitle">STATEMENT FROM THE BOARD OF EXAMINERS</span>
+						<span class="projectDesc">Successfully passed the S1 Thesis Defense Examination conducted on Friday, 6 February 2026</span>
+						<a href="https://drive.google.com/file/d/10HmPlArQ59O4V0yerINYTIAKUiYFE2L_/view?usp=sharing" target="_blank" class="viewBtnStyle">View PDP</a>
+					</div>
+				</div>
+				<!-- Data Analysis with Python -->
+				<div class="projectBox">
+					<div class="certifBox">
+						<img src="image/Data Analysis with Python.png" class="certif" />
+					</div>
+
+					<div class="certifRight">
+						<span class="certifTitle">Data Analysis with Python</span>
+						<span class="projectDesc"
+							>Succesfully completed and received a passing grade in Data Analysis with Python. A course on cognitiveclass.ai, powered by IBM Developer Skills
+							Network.</span
+						>
+						<a href="https://courses.cognitiveclass.ai/certificates/1b896c419e0d4f80a3b2e87f53c9c065" target="_blank" class="viewBtnStyle">View Authenticity</a>
+					</div>
+				</div>
+				<!-- SQL and Relational Databases 101 -->
+				<div class="projectBox">
+					<div class="certifBox">
+						<img src="image/SQL and Relational Databases 101.png" class="certif" />
+					</div>
+
+					<div class="certifRight">
+						<span class="certifTitle">SQL and Relational Databases 101</span>
+						<span class="projectDesc"
+							>Succesfully completed and received a passing grade in SQL and Relational Databases 101. A course on cognitiveclass.ai, powered by IBM Developer
+							Skills Network.</span
+						>
+						<a href="https://courses.cognitiveclass.ai/certificates/d2e7e12de12e454887168d144a4412f0" target="_blank" class="viewBtnStyle">View Authenticity</a>
+					</div>
+				</div>
+				<!-- Professional Office -->
+				<div class="projectBox">
+					<div class="certifBox">
+						<img src="image/Professional Office.png" class="certif" />
+					</div>
+
+					<div class="certifRight">
+						<span class="certifTitle">Professional Office</span>
+						<span class="projectDesc"
+							>Succesfully completed English C1.2-Level courses and received passing grade for Professional Office. A digital language learning system provided
+							by Binus University.</span
+						>
+					</div>
+				</div>
+				<!-- Advanced English -->
+				<div class="projectBox">
+					<div class="certifBox">
+						<img src="image/Advanced English.png" class="certif" />
+					</div>
+
+					<div class="certifRight">
+						<span class="certifTitle">Advanced English</span>
+						<span class="projectDesc"
+							>Succesfully completed English C2.1-Level courses and received passing grade for Advanced English. A digital language learning system provided by
+							Binus University.</span
+						>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="footerLine"></div>
+			<nav class="navFooter">
+				<a href="https://www.instagram.com/edricklouiss/" target="_blank" class="instagram">Instagram</a>
+				<a href="https://www.linkedin.com/in/edrick-louis-88aa64253/" target="_blank" class="linkedin">LinkedIn</a>
+				<a href="https://github.com/edricklouis" target="_blank" class="github">GitHub</a>
+				<a href="#" id="openEmail" target="_blank" class="email">edricklouiss@gmail.com</a>
+			</nav>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
 </html>
